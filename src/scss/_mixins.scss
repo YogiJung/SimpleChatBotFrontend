@@ -1,0 +1,6 @@
+@use "./var" as var;
+@mixin Test($test-on) {
+  @if $test-on == true {
+    border: var.$border-test;
+  }
+}

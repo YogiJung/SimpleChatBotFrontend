@@ -1,0 +1,21 @@
+@use "./mixins" as mix;
+@use "./var" as var;
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  p {
+    color: white;
+  }
+  button {
+    width: 20%;
+    height: 10%;
+  }
+}
